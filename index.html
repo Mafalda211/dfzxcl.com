@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DFZXCL 新材料科技</title>
+
+<style>
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC";
+  background:#0a0f14;
+  color:#fff;
+}
+
+/* 顶部 */
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:radial-gradient(circle at top,#1b2a3a,#000);
+}
+
+.hero h1{
+  font-size:56px;
+  letter-spacing:2px;
+  margin:0;
+}
+
+.hero p{
+  color:#aaa;
+  margin-top:15px;
+  font-size:18px;
+}
+
+.hero .tag{
+  margin-top:25px;
+  padding:10px 18px;
+  border:1px solid #3b82f6;
+  border-radius:30px;
+  color:#3b82f6;
+  font-size:14px;
+}
+
+/* 区块 */
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:100px 20px;
+}
+
+/* 标题 */
+h2{
+  font-size:28px;
+  margin-bottom:30px;
+  border-left:4px solid #3b82f6;
+  padding-left:12px;
+}
+
+/* 卡片 */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#111826;
+  padding:25px;
+  border-radius:12px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  background:#162033;
+}
+
+/* 产品展示 */
+.product{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+
+.product img{
+  width:260px;
+  border-radius:12px;
+  margin-bottom:20px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* 流程 */
+.flow{
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+  color:#aaa;
+}
+
+.flow div{
+  flex:1;
+  padding:10px;
+}
+
+/* 联系 */
+.contact{
+  background:#0f1622;
+  border-radius:16px;
+  padding:40px;
+}
+
+/* footer */
+footer{
+  text-align:center;
+  padding:50px;
+  color:#666;
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>DFZXCL</h1>
+  <p>广东丹凤朝熙新材料科技有限公司</p>
+  <div class="tag">钛 + 1 · 创未来</div>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>关于我们</h2>
+  <div class="card">
+    我们专注于钛基新材料的全链路开发与工业化应用，
+    从材料研发、工艺设计到终端产品实现一体化解决方案。
+  </div>
+</section>
+
+<!-- BUSINESS -->
+<section>
+  <h2>核心能力</h2>
+  <div class="grid">
+    <div class="card">原材料供应</div>
+    <div class="card">工业设计与开发</div>
+    <div class="card">表面处理工艺</div>
+    <div class="card">钛制品定制开发</div>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section>
+  <h2>核心产品</h2>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1526401485004-2aa7f9f3f9a1" alt="">
+    <h3>冰花钛杯</h3>
+    <p style="color:#aaa;">
+      100%纯钛 · 健康安全 · 匠心工艺
+    </p>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section>
+  <h2>产业链结构</h2>
+  <div class="flow">
+    <div>源头厂家</div>
+    <div>研发设计</div>
+    <div>生产制造</div>
+    <div>终端应用</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>联系我们</h2>
+  <div class="contact">
+    电话：137 2409 0012<br>
+    官网：www.dfzxcl.com<br>
+    地址：广州南沙区
+  </div>
+</section>
+
+<footer>
+  © DFZXCL 新材料科技
+</footer>
+
+</body>
+</html>
